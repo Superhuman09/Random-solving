@@ -10,10 +10,10 @@ let maxInt = +prompt('Enter maximal number')
 
 let answerUser = 0
 let answerUserMinus = 0
-for(let i = 0; i < 3; i++) {
+for(let i = 0; i < 10; i++) {
     let num1 = myRandom(minInt, maxInt)
     let num2 = myRandom(minInt, maxInt)
-    let symbol = myRandom(1, 4);
+    let symbol = myRandom(1, 4); 
     let symbolStr = ''
     let answerPr
     if (symbol === 1) {
@@ -35,4 +35,4 @@ for(let i = 0; i < 3; i++) {
     alert(num1 + symbolStr + num2 + ' = ' + answerPr + ' Your answer ' + pr + '. ' + answer)
 }
 
-alert('Right answers: ' + answerUser + '! Wrong answers: ' + answerUserMinus)
+ alert('Right answers: ' + answerUser + '! Wrong answers: ' + answerUserMinus)
