@@ -7,10 +7,11 @@ function myRandom(min, max) {
 
 let minInt = +prompt('Enter minimal number')
 let maxInt = +prompt('Enter maximal number')
+let count = +prompt('Enter number of solvings')
 
 let answerUser = 0
 let answerUserMinus = 0
-for(let i = 0; i < 10; i++) {
+for(let i = 0; i < count; i++) {
     let num1 = myRandom(minInt, maxInt)
     let num2 = myRandom(minInt, maxInt)
     let symbol = myRandom(1, 4); 
